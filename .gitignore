@@ -1,3 +1,14 @@
+# Project datas
+logs/
+
+# Visual Studio Code
+.settings/
+.vscode/
+.factorypath
+.project
+.classpath
+
+# Maven ouptut
 target/
 pom.xml.tag
 pom.xml.releaseBackup
