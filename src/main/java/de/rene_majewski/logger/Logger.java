@@ -51,7 +51,7 @@ public class Logger {
   /**
    * Saves the instance of this class.
    */
-  private Logger instance;
+  private static Logger instance;
 
   /**
    * Saves the directory where the logs are to be saved.
@@ -160,7 +160,7 @@ public class Logger {
    * 
    * @return Instance of the logger.
    */
-  public synchronized Logger getInstance() {
+  public static synchronized Logger getInstance() {
     if (instance == null) {
       instance = new Logger();
     }
